@@ -1,3 +1,6 @@
+require_relative '../Modules/CommonClassMethods'
+require_relative '../Modules/CommonInstanceMethods'
+
 class SalesOrder
     extend CommonClassMethods
     include CommonInstanceMethods

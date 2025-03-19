@@ -1,3 +1,5 @@
+require "awesome_print"
+
 class Audit
 
     def initialize

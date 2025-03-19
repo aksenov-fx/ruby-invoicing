@@ -1,3 +1,6 @@
+require "awesome_print"
+require_relative "../../FrameworkClasses/PermissionReader"
+
 module CommonUpdateMethod
 
     def update(fields)

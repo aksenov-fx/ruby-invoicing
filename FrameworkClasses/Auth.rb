@@ -1,3 +1,5 @@
+require_relative "../FrameworkClasses/Users"
+
 class Auth
     
     def self.current_user

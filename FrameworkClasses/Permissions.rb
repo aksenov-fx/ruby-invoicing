@@ -1,3 +1,5 @@
+require_relative "../FrameworkClasses/Auth"
+
 class Permissions
 
     @@Permissions ||= {}

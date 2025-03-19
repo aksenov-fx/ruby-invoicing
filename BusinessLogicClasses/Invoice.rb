@@ -1,3 +1,6 @@
+require_relative '../Modules/CommonClassMethods'
+require_relative '../Modules/CommonInstanceMethods'
+
 class Invoice
     extend CommonClassMethods
     include CommonInstanceMethods

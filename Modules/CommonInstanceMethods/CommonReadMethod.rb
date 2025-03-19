@@ -1,3 +1,5 @@
+require_relative "../../FrameworkClasses/PermissionReader"
+
 module CommonReadMethod
 
     def read(fields)

@@ -1,3 +1,6 @@
+require_relative "../FrameworkClasses/Permissions"
+require_relative "../FrameworkClasses/RolesToPermissions"
+
 class PermissionReader
 
     def self.has_permission?( entity, fields, client, operation )
